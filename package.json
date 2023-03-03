@@ -1,0 +1,21 @@
+{
+  "name": "solidity_tutorial_with_hardhat",
+  "version": "1.0.0",
+  "description": "This is the solidity tutorial with hardhat. It comes with several sample smart contracts, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "help": "npx hardhat help",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "author": "chenyuwang1120@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2"
+  }
+}
